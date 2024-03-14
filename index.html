@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car license plate</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h2 class="data">Cars database</h2>
+    <div class="container">
+      <label for="License">License Plate</label>
+      <input
+        type="text"
+        id="License"
+        name="License"
+        placeholder="type here..."
+      />
+      <label for="Car Brand">Car Brand</label>
+      <input
+        type="text"
+        id="Brand"
+        name="Car Brand"
+        placeholder="type here..."
+      />
+      <label for="Car Model">Car Model</label>
+      <input
+        type="text"
+        id="Model"
+        name="Car Model"
+        placeholder="type here..."
+      />
+      <label for="Car Owner">Car Owner</label>
+      <input
+        type="text"
+        id="Owner"
+        name="Car Owner"
+        placeholder="type here..."
+      />
+      <label for="Car Color">Car Color</label>
+      <input
+        type="color"
+        id="Color"
+        name="Car Color"
+        placeholder="type here..."
+      />
+      <button type="submit" id="entry">Send data</button>
+      <button type="reset" id="back">Reset form</button>
+    </div>
+    <table id="display">
+      <tr>
+        <th>License Plate</th>
+        <th>Car Brand</th>
+        <th>Car Model</th>
+        <th>Car Owner</th>
+        <th>Car Color</th>
+      </tr>
+    </table>
+    <footer>Copyright &copy; Teodor Popa</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
